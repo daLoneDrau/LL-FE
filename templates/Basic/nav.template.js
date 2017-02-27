@@ -8,16 +8,7 @@ angular.module('restApp').run(function($templateCache) {
 <div class="col-md-2 col-md-offset-1 visible-lg"> \
     <h2>Menu Item</h2> \
     <ul class="nav"> \
-        <li class="nav-item"><a class="nav-link active" href="#!attributes">Attributes</a></li> \
         <li class="nav-item"><a class="nav-link active" href="#!currencies">Currencies</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!die">Die</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!dice">Dice Rolls</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!elements">Equipment Element Types</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!modifiers">Equipment Item Modifiers</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!equipment_slots">Equipment Slots</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!genders">Genders</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!groups">IO Groups</a></li> \
-        <li class="nav-item"><a class="nav-link active" href="#!object_types">Object Types</a></li> \
         <li class="nav-item"><a class="nav-link active" href="#!weapons">Weapons</a></li> \
         <li class="nav-item"><a class="nav-link active" href="#!armors">Armors</a></li> \
         <li class="nav-item"><a class="nav-link active" href="#!items">Items</a></li> \

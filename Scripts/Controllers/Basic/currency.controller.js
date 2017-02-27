@@ -81,8 +81,8 @@ angular.module('restApp').controller('BasicCurrencyController',
                 for (var i = $scope.entities.length - 1; i >= 0; i--) {
                     if (angular.isUndefined($scope.entities[i].id)) {
                         $scope.entities[i].id = 0;
-                        break;
                     }
+                    $scope.entities[i].exchange_rates[$scope.entities[i].code] = 1;
                 }
             }
         });
